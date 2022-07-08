@@ -1,0 +1,26 @@
+body{}
+
+.cabecalho {}
+
+.cabecalho__logo {}
+.cabecalho__logo img{}
+
+.cabecalho__menuNavegacao {}
+.cabecalho__menuLista{}
+.cabecalho__menuItem{}
+.cabecalho__menuItem img{}
+.cabecalho__menuItem a{}
+
+.conteudoPrincipal {}
+.conteudoPrincipal__titulo{}
+.conteudoPrincipal__formulario{}
+.conteudoPrincipal__formulario textarea{}
+.conteudoPrincipal__formulario button{}
+.conteudoPrincipal__feed {}
+.conteudoPrincipal__listTweets{}
+.conteudoPrincipal__tweet{}
+.conteudoPrincipal__tweet img{}
+
+.tweet__conteudo h2{}
+.tweet__conteudo span{}
+.tweet__conteudo p{}
