@@ -1,4 +1,6 @@
-body{}
+body{
+  font-family: 'Roboto Serif', serif;  
+}
 
 .container{
   display: flex;
@@ -56,10 +58,26 @@ body{}
   border-radius: 20px;  
 }
 .conteudoPrincipal__feed {}
-.conteudoPrincipal__listTweets{}
-.conteudoPrincipal__tweet{}
+.conteudoPrincipal__listTweets{
+  list-style: none;
+}
+.conteudoPrincipal__tweet{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #828282;
+  margin-top: 10px;
+}
 .conteudoPrincipal__tweet img{}
 
-.tweet__conteudo h2{}
-.tweet__conteudo span{}
+.tweet__conteudo {
+  margin-left: 15px;
+}
+
+.tweet__conteudo h2{
+  margin-top: 0;
+  display: inline-block;
+}
+.tweet__conteudo span{
+  color: #e7ecf0;
+}
 .tweet__conteudo p{}
