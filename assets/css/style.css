@@ -2,10 +2,11 @@ body{}
 
 .container{
   display: flex;
+  max-width: 1200px;
 }
 
 .cabecalho {
-  width: 30%;
+  flex-basis: 30%;
   margin-top: 30px;  
 }
 
@@ -27,11 +28,33 @@ body{}
   margin-left: 15px;  
 }
 
-.conteudoPrincipal {}
-.conteudoPrincipal__titulo{}
-.conteudoPrincipal__formulario{}
-.conteudoPrincipal__formulario textarea{}
-.conteudoPrincipal__formulario button{}
+.conteudoPrincipal {
+  flex-basis: 70%;
+}
+.conteudoPrincipal__titulo{
+  margin-top: 50px;
+  margin-left: 20px;  
+}
+.conteudoPrincipal__formulario{
+  border-top: 1px solid #ddd;
+  border-bottom: 10px solid #ddd;
+  text-align: right;  
+}
+.conteudoPrincipal__formulario textarea{
+  padding: 20px;
+  width: 100%;
+  border: none;
+  outline: none;  
+  resize: none;
+}
+.conteudoPrincipal__formulario button{
+  margin: 20px;
+  padding: 10px 25px;
+  color: white;
+  background-color: #A5D9FA;
+  border: none;
+  border-radius: 20px;  
+}
 .conteudoPrincipal__feed {}
 .conteudoPrincipal__listTweets{}
 .conteudoPrincipal__tweet{}
