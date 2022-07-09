@@ -59,7 +59,9 @@ body{
 }
 .conteudoPrincipal__feed {}
 .conteudoPrincipal__listTweets{
+  display: flex;
   list-style: none;
+  flex-flow: column-reverse;
 }
 .conteudoPrincipal__tweet{
   display: flex;
