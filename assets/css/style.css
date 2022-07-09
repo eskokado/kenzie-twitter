@@ -21,6 +21,7 @@ body{
 }
 .cabecalho__menuItem{
   margin-bottom: 25px;
+  font-weight: 500;
 }
 .cabecalho__menuItem img{}
 .cabecalho__menuItem a{
@@ -29,7 +30,9 @@ body{
   font-size: 25px;
   margin-left: 15px;  
 }
-
+.cabecalho__menuItem:hover{
+  background-color: aqua;
+}
 .conteudoPrincipal {
   flex-basis: 70%;
 }
@@ -57,6 +60,10 @@ body{
   border: none;
   border-radius: 20px;  
 }
+.conteudoPrincipal__formulario button:hover{
+  background-color: aqua;
+  color: black;
+}
 .conteudoPrincipal__feed {}
 .conteudoPrincipal__listTweets{
   display: flex;
@@ -80,6 +87,7 @@ body{
   display: inline-block;
 }
 .tweet__conteudo span{
+  margin-left: 25px;
   color: #e7ecf0;
 }
 .tweet__conteudo p{}
